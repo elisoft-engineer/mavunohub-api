@@ -58,7 +58,7 @@ To install poetry, visit [Python Poetry](https://github.com/python-poetry/instal
    ```sh
    poetry env activate
 
-   source $(poetry env info --path)  # Linux / MacOS
+   source $(poetry env info --path)/bin/activate  # Linux / MacOS
    source "$(poetry env info --path)/Scripts/activate" # Git Bash / MinGW (Windows)
    & "$(poetry env info --path)\Scripts\activate.ps1" # PowerShell (Windows)
    ```
