@@ -65,6 +65,37 @@ asgiref = ">=3.6"
 django = ">=4.2"
 
 [[package]]
+name = "django-enumfields"
+version = "2.1.1"
+description = "Real Python Enums for Django."
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "django-enumfields-2.1.1.tar.gz", hash = "sha256:f64841732a9c343f5071220e0abcf5f51c9472c06e3c33d7c6a7ec27b6087561"},
+    {file = "django_enumfields-2.1.1-py3-none-any.whl", hash = "sha256:d32f2151801a5fc13c860276ee99495c2c9345e0a4281d0104276c39ddb22807"},
+]
+
+[[package]]
+name = "django-phonenumber-field"
+version = "8.3.0"
+description = "An international phone number field for django models."
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "django_phonenumber_field-8.3.0-py3-none-any.whl", hash = "sha256:afaf8b16693c8d64646acf7693f5a9c4a809e7f1f9b66a84dabbe04a2d6c1513"},
+    {file = "django_phonenumber_field-8.3.0.tar.gz", hash = "sha256:193b3acc3b83ff4aad95dd9530a6d01e1c7c1cecbdfa8a56159789bbb85ab0e2"},
+]
+
+[package.dependencies]
+Django = ">=4.2"
+
+[package.extras]
+phonenumbers = ["phonenumbers (>=7.0.2)"]
+phonenumberslite = ["phonenumberslite (>=7.0.2)"]
+
+[[package]]
 name = "djangorestframework"
 version = "3.16.1"
 description = "Web APIs for Django, made easy."
@@ -176,6 +207,18 @@ files = [
 
 [package.dependencies]
 referencing = ">=0.31.0"
+
+[[package]]
+name = "phonenumbers"
+version = "9.0.18"
+description = "Python version of Google's common library for parsing, formatting, storing and validating international phone numbers."
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "phonenumbers-9.0.18-py2.py3-none-any.whl", hash = "sha256:d3354454ac31c97f8a08121df97a7145b8dca641f734c6f1518a41c2f60c5764"},
+    {file = "phonenumbers-9.0.18.tar.gz", hash = "sha256:5537c61ba95b11b992c95e804da6e49193cc06b1224f632ade64631518a48ed1"},
+]
 
 [[package]]
 name = "psycopg2-binary"
@@ -569,4 +612,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "17c93d8f60b7cc2e16bf5b961c1aedfb4b952a59fb9cf5a0dcee0fef5db00b22"
+content-hash = "9f0438e58a13cfdd9c7036b9b685d1038e6f27857ef380ff143d5180b735408e"
