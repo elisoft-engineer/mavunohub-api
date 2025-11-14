@@ -1,0 +1,74 @@
+MAVUNOHUB SOFTWARE LICENSE AGREEMENT
+
+This End User License Agreement ("Agreement") is a legal agreement between the MavunoHub Team ("Licensor") and authorized users of MavunoHub ("Licensee"), governing the use of the MavunoHub API and related software components ("Software").
+
+1. Grant of License
+
+Licensor grants Licensee a non-transferable, non-exclusive, revocable license to use the Software strictly for:
+a. Facilitating marketplace interactions for farm produce,
+b. Managing orders and related transactions,
+c. Registering and managing retailer accounts,
+d. Handling authentication and secure API access within Licensee’s internal systems.
+
+This license does not grant permission to distribute, copy, modify, or sublicense the Software to any third party. The Software may only be used within Licensee’s organization for its intended operational purposes.
+
+2. Restrictions
+
+Licensee shall not, without prior written consent from Licensor:
+a. Distribute, sell, rent, lease, sublicense, or otherwise transfer the Software or access to it to any third party.
+b. Modify, decompile, disassemble, reverse engineer, translate, or create derivative works from the Software or any of its components.
+c. Share, disclose, or provide access to the Software’s source code, configuration, or proprietary logic to unauthorized individuals or external parties.
+d. Use the Software for any purpose outside the intended scope described in Section 1.
+e. Integrate the Software into any commercial offering or multi-tenant system unless explicitly authorized in writing.
+
+3. Intellectual Property
+
+All rights, title, and interest in and to the Software—including all code, APIs, architecture, trademarks, proprietary algorithms, and documentation—remain solely with Licensor.
+This Agreement grants no ownership rights to Licensee.
+Any improvements, feedback, or suggestions provided by Licensee may be used by Licensor without obligation or attribution.
+
+4. Disclaimer of Warranties
+
+The Software is provided "as is" without warranty of any kind. Licensor disclaims all express, implied, statutory, or other warranties, including but not limited to:
+a. merchantability,
+b. fitness for a particular purpose,
+c. accuracy,
+d. system integration,
+e. non-infringement.
+
+Licensor does not warrant that the Software will be error-free, uninterrupted, secure, or compatible with all environments or systems used by Licensee.
+
+5. Limitation of Liability
+
+To the maximum extent permitted by law:
+Licensor shall not be liable for any indirect, incidental, consequential, special, exemplary, or punitive damages,
+including loss of revenue, profits, business opportunities, data, or system functionality,
+even if advised of the possibility of such damages.
+
+Licensor’s total cumulative liability to Licensee, for any claim arising out of or relating to this Agreement or the Software, shall not exceed the amount paid by Licensee specifically for access to the Software (if any).
+
+6. Termination
+
+This Agreement remains in effect until terminated.
+Licensee’s rights under this Agreement automatically terminate without notice if Licensee breaches any term of this Agreement.
+
+Upon termination, Licensee must:
+a. cease all use of the Software,
+b. destroy all copies (full or partial),
+c. remove all deployments, backups, or stored versions of the Software.
+
+Termination does not entitle Licensee to any refund.
+
+7. Governing Law
+
+This Agreement shall be governed by and construed in accordance with the laws of Kenya, without regard to conflict-of-law principles.
+Any disputes arising under this Agreement shall be resolved exclusively in the courts of Kenya, and the parties consent to such jurisdiction and venue.
+
+8. Entire Agreement
+
+This Agreement constitutes the entire agreement between Licensor and Licensee regarding the Software and supersedes all prior or contemporaneous agreements, proposals, or representations, whether written or oral.
+
+By installing, accessing, or using the Software, you acknowledge that you have read, understood, and agree to be legally bound by the terms and conditions of this Agreement.
+
+MavunoHub Team
+2025
