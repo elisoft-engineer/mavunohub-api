@@ -20,10 +20,11 @@ class UserSerializer(serializers.ModelSerializer):
 
 class UserCreateSerializer(serializers.ModelSerializer):
     phone = serializers.CharField(required=False)
+    role = serializers.ChoiceField(choices=[item.value for item in UserRole])
 
     class Meta:
         model = User
-        fields = ["name", "email", "phone", "location"]
+        fields = ["name", "email", "phone", "location", "role", "password"]
 
     def validate_phone(self, value):
         phone_input = str(value)
