@@ -19,7 +19,12 @@ DEBUG = os.getenv('DEBUG', 'false').lower() == 'true'
 
 ALLOWED_HOSTS = []
 
+AUTH_USER_MODEL = 'accounts.User'
+
 INSTALLED_APPS = [
+    'accounts.apps.AccountsConfig',
+    'authentication.apps.AuthenticationConfig',
+    'notifications.apps.NotificationsConfig',
     'drf_spectacular',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -111,6 +116,8 @@ SPECTACULAR_SETTINGS = {
     'VERSION': '0.1.0',
     'COMPONENT_SPLIT_REQUEST': True,
 }
+
+REGION_CODE = 'KE'
 
 LANGUAGE_CODE = 'en-us'
 
