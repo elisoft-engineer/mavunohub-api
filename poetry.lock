@@ -77,6 +77,24 @@ files = [
 ]
 
 [[package]]
+name = "django-filter"
+version = "25.2"
+description = "Django-filter is a reusable Django application for allowing users to filter querysets dynamically."
+optional = false
+python-versions = ">=3.10"
+groups = ["main"]
+files = [
+    {file = "django_filter-25.2-py3-none-any.whl", hash = "sha256:9c0f8609057309bba611062fe1b720b4a873652541192d232dd28970383633e3"},
+    {file = "django_filter-25.2.tar.gz", hash = "sha256:760e984a931f4468d096f5541787efb8998c61217b73006163bf2f9523fe8f23"},
+]
+
+[package.dependencies]
+Django = ">=5.2"
+
+[package.extras]
+drf = ["djangorestframework"]
+
+[[package]]
 name = "django-phonenumber-field"
 version = "8.3.0"
 description = "An international phone number field for django models."
@@ -612,4 +630,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "9f0438e58a13cfdd9c7036b9b685d1038e6f27857ef380ff143d5180b735408e"
+content-hash = "852bda860c0fb77c5f649266f0dfb1f1ab18a0ceb207350e347010c1d65c210e"
