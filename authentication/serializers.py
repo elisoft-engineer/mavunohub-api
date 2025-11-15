@@ -33,7 +33,7 @@ class EmailPasswordTokenObtainSerializer(TokenObtainPairSerializer):
             "location": user.location,
             "role": user.role.value,
             "is_active": user.is_active,
-            "is_staff": user.is_active,
+            "is_staff": user.is_staff,
             "created_at": str(user.created_at),
             "updated_at": str(user.updated_at),
         }
