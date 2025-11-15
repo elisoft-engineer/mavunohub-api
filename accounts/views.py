@@ -96,9 +96,11 @@ class UserDetail(APIView):
         return [IsAuthenticated(), IsSelfOrStaff()]
     
     def get_serializer_class(self):
-        if self.request.method == 'PUT':
+        if self.request.method == 'GET':
+            return UserSerializer
+        elif self.request.method == 'PUT':
             return UserUpdateSerializer
-        return UserSerializer
+        return None
 
     def get_object(self, pk):
         obj = get_object_or_404(User, pk=pk)
