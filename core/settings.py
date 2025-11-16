@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'authentication.apps.AuthenticationConfig',
     'notifications.apps.NotificationsConfig',
+    'products.apps.ProductsConfig',
     'drf_spectacular',
     'django.contrib.admin',
     'django.contrib.auth',
