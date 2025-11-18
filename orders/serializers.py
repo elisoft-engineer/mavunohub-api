@@ -3,7 +3,9 @@ from decimal import Decimal
 from django.db import transaction
 from rest_framework import serializers
 
-from .models import Order, OrderItem
+from core.serializers import EnumField
+
+from .models import Order, OrderItem, OrderStatus, PaymentStatus
 
 
 class OrderItemSerializer(serializers.ModelSerializer):
@@ -23,6 +25,8 @@ class OrderItemCreateSerializer(serializers.ModelSerializer):
 
 
 class OrderSerializer(serializers.ModelSerializer):
+    status = EnumField(enum_class=OrderStatus)
+    payment_status = EnumField(enum_class=PaymentStatus)
     items = OrderItemSerializer(many=True)
     buyer = serializers.CharField(source="buyer.name", read_only=True)
 
