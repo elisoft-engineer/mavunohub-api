@@ -32,6 +32,7 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2, validators=[MinValueValidator(Decimal("0.01"))])
     stock = models.DecimalField(decimal_places=3, max_digits=10, default=Decimal("0.000"))
     unit = EnumField(MeasurementUnit, default=MeasurementUnit.KILOGRAM, max_length=64)
+    min_order = models.PositiveIntegerField(default=1, validators=[MinValueValidator(1)])
     description = models.TextField()
     image = models.ImageField(upload_to="products")
     seller = models.ForeignKey(User, on_delete=models.CASCADE, related_name="products")
