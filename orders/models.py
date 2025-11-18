@@ -59,9 +59,6 @@ class OrderItem(models.Model):
     unit_price = models.DecimalField(max_digits=12, decimal_places=2, validators=[MinValueValidator(Decimal("0.00"))])
     quantity = models.DecimalField(max_digits=12, decimal_places=3, validators=[MinValueValidator(Decimal("0.001"))])
 
-    class Meta:
-        ordering = ["-created_at"]
-
     @property
     def item_total(self):
         return self.unit_price * self.quantity
