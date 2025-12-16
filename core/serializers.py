@@ -4,6 +4,7 @@ from rest_framework import serializers
 class EnumField(serializers.Field):
     def __init__(self, enum_class, *args, **kwargs):
         self.enum_class = enum_class
+        self.choices = {e.value: e.value for e in enum_class}
         super().__init__(*args, **kwargs)
 
     def to_representation(self, value):
